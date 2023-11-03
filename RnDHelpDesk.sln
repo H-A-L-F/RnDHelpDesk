@@ -5,6 +5,12 @@ VisualStudioVersion = 17.7.34221.43
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RnDHelpDesk.WebUI", "RnDHelpDesk.WebUI\RnDHelpDesk.WebUI.csproj", "{683A9E46-518B-4AB4-B4F6-D66B3A83EBFB}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{64D0691F-D818-4128-B4A1-288519005FC5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{DC91BD2B-DA59-4041-8768-744A56B99F9F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{DC8CBA9C-366B-4F89-8825-0FA711D7D967}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,6 +24,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{683A9E46-518B-4AB4-B4F6-D66B3A83EBFB} = {DC8CBA9C-366B-4F89-8825-0FA711D7D967}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {18024B77-8E25-4BD9-92CB-EEC918C3BC28}
