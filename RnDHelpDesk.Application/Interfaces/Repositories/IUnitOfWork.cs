@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace RnDHelpDesk.Application.Interfaces.Repositories
 {
-    internal interface IUnitOfWork : IDisposable
+    public interface IUnitOfWork : IDisposable
     {
         IGenericRepository<T> Repository<T>() where T : BaseAuditableEntity;
         Task<int> Save(CancellationToken cancellationToken);
