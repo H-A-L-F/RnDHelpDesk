@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace RnDHelpDesk.Domain.Common
 {
-    internal class BaseAuditableEntity : BaseEntity, IAuditableEntity
+    public class BaseAuditableEntity : BaseEntity, IAuditableEntity
     {
         public int? CreatedBy { get; set; }
         public DateTime? CreatedDate { get; set; }
