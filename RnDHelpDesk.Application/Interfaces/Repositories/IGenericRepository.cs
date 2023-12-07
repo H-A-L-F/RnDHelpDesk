@@ -13,7 +13,7 @@ namespace RnDHelpDesk.Application.Interfaces.Repositories
 
         Task<T> GetByIdAsync(int id);
         Task<List<T>> GetAllAsync();
-        Task<T> AddAsnyc(T entity);
+        Task<T> AddAsync(T entity);
         Task UpdateAsync(T entity);
         Task DeleteAsync(T entity);
     }

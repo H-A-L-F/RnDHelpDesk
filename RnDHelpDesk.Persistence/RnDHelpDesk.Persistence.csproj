@@ -13,6 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\RnDHelpDesk.Application\RnDHelpDesk.Application.csproj" />
     <ProjectReference Include="..\RnDHelpDesk.Domain\RnDHelpDesk.Domain.csproj" />
   </ItemGroup>
 
