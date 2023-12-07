@@ -12,9 +12,9 @@ namespace RnDHelpDesk.Persistence.Repositories
 {
     public class GenericRepository<T> : IGenericRepository<T> where T : BaseAuditableEntity
     {
-        private readonly ApplicationDBContext _dbContext;
+        private readonly ApplicationDbContext _dbContext;
 
-        public GenericRepository(ApplicationDBContext dbContext)
+        public GenericRepository(ApplicationDbContext dbContext)
         {
             _dbContext = dbContext;
         }

@@ -9,11 +9,11 @@ using System.Reflection;
 
 namespace RnDHelpDesk.Persistence.Contexts
 {
-    public class ApplicationDBContext : DbContext
+    public class ApplicationDbContext : DbContext
     {
         public DbSet<User> Users => Set<User>();
 
-        public ApplicationDBContext(DbContextOptions<ApplicationDBContext> options) : base() { }
+        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base() { }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
